@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scrolling Thumbnails</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-blue-grey.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="w3-theme-dark">
+<header class="w3-container constrain w3-theme-l4">
+    <h1>Sliding thumbnails</h1>
+</header>
+<div class="w3-panel constrain">
+    <div id="slides">
+        <a href="#"><img src="images/arrow_left_grey.png" alt="play" id="play-left" onclick="changeThumbLeft()"></a>
+        <a href="#"><img src="thumbs/thumb1.jpg" alt="Rustic Wood Fence" id="one" onclick="button1()"></a>
+        <a href="#"><img src="thumbs/thumb2.jpg" alt="Fountain framed by pine trees" id="two" onclick="button2()"></a>
+        <a href="#"><img src="thumbs/thumb3.jpg" alt="Looking up at gazebo ceiling" id="three" onclick="button3()"></a>
+        <a href="#"><img src="thumbs/thumb4.jpg" alt="Lexi" id="four" onclick="button4()"></a>
+        <a href="#"><img src="thumbs/thumb5.jpg" alt="Hallway at MCC" id="five" onclick="button5()"></a>
+        <a href="#"><img src="images/arrow_right_grey.png" alt="play" id="play-right" onclick="changeThumbRight()"></a>
+
+    </div>
+
+</div>
+<div class="w3-container constrain w3-theme-l4">
+    <img src="images/image1.jpg" alt="Rustic Wood Fence" id="large">
+    <div id="info">
+        <h1 id="title">Rustic Wood Fence</h1>
+        <p id="detail">Pretty scene at the entrance to Morraine Hills State Park in McHenry, IL.</p>
+    </div>
+</div>
+
+<script src="myscripts.js"></script>
+</body>
+
+</html>
